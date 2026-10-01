@@ -12,7 +12,7 @@ const lightred = { r: 255, g: 100, b: 100, a: 255 };
 const cream = { r: 230, g: 230, b: 230, a: 255 };
 
 r.SetTraceLogLevel(r.LOG_NONE);
-r.InitWindow(windowWidth, windowHeight, "ROunded Button");
+r.InitWindow(windowWidth, windowHeight, "Rounded Button");
 r.SetTargetFPS(80);
 
 while (!r.WindowShouldClose()) {
@@ -21,6 +21,7 @@ while (!r.WindowShouldClose()) {
     r.ClearBackground(r.BLACK);
 
     r.DrawRectangleRounded(rect, 1, 8, lightred);
+    r.DrawRectangleRoundedLines(rect, 1, 8, 5, cream);
 
     r.EndDrawing();
 }
