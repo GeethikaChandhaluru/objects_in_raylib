@@ -14,6 +14,7 @@ const rightPoint = {
 
 const lightred = { r: 255, g: 100, b: 100, a: 255 };
 const maroon = { r: 128, g: 0, b: 0, a: 255 };
+const cream = { r: 230, g: 230, b: 230, a: 255 };
 
 r.SetTraceLogLevel(r.LOG_NONE);
 r.InitWindow(windowWidth, windowHeight, "Rounded Button");
@@ -26,6 +27,7 @@ while (!r.WindowShouldClose()) {
 
     r.DrawCircleV(leftPoint, 50, lightred);
     r.DrawCircleV(rightPoint, 50, maroon);
+    r.DrawLineV(leftPoint, rightPoint, cream);
 
     r.EndDrawing();
 }
