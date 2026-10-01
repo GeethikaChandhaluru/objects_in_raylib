@@ -8,7 +8,7 @@ const rect = {
     width: 200,
     height: 100,
 };
-const lightred = { r: 255, g: 100, b: 100, a: 255 };
+const lightred = { r: 255, g: 100, b: 100, a: 105 };
 const cream = { r: 230, g: 230, b: 230, a: 255 };
 
 r.SetTraceLogLevel(r.LOG_NONE);
