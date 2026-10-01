@@ -3,8 +3,8 @@ const windowWidth = 600;
 const windowHeight = 400;
 
 const leftPoint = {
-    x: 50,
-    y: 100,
+    x: 100,
+    y: 200,
 };
 
 const rightPoint = {
