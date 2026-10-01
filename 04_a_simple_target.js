@@ -7,8 +7,8 @@ const point = {
     y: windowHeight / 2,
 };
 
-const lightred = { r: 255, g: 100, b: 100, a: 100 };
-const maroon = { r: 128, g: 0, b: 0, a: 100 };
+const lightred = { r: 255, g: 100, b: 100, a: 255 };
+const maroon = { r: 128, g: 0, b: 0, a: 255 };
 const cream = { r: 230, g: 230, b: 230, a: 255 };
 
 r.SetTraceLogLevel(r.LOG_NONE);
@@ -20,10 +20,10 @@ while (!r.WindowShouldClose()) {
 
     r.ClearBackground(r.BLACK);
 
-    r.DrawCircleV(point, 100, lightred);
+    r.DrawCircleV(point, 100, r.BROWN);
     r.DrawCircleV(point, 80, maroon);
-    r.DrawCircleV(point, 60, lightred);
-    r.DrawCircleV(point, 40, maroon);
+    r.DrawCircleV(point, 60, cream);
+    r.DrawCircleV(point, 40, r.BLUE);
     r.DrawCircleV(point, 20, lightred);
 
     r.EndDrawing();
