@@ -20,8 +20,8 @@ while (!r.WindowShouldClose()) {
 
     r.ClearBackground(r.BLACK);
 
-    r.DrawRectangleRounded(rect, 1, 8, lightred);
-    r.DrawRectangleRoundedLines(rect, 1, 8, 5, cream);
+    r.DrawRectangleRounded(rect, 0.3, 8, lightred);
+    r.DrawRectangleRoundedLines(rect, 0.3, 8, 5, cream);
 
     r.EndDrawing();
 }
