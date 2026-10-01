@@ -7,9 +7,9 @@ const point = {
     y: windowHeight / 2,
 };
 
-const lightred = { r: 255, g: 100, b: 100, a: 255 };
-const maroon = { r: 128, g: 0, b: 0, a: 255 };
-const cream = { r: 230, g: 230, b: 230, a: 255 };
+const lightred = { r: 255, g: 100, b: 100, a: 150 };
+const maroon = { r: 128, g: 0, b: 0, a: 150 };
+const cream = { r: 230, g: 230, b: 230, a: 150 };
 
 r.SetTraceLogLevel(r.LOG_NONE);
 r.InitWindow(windowWidth, windowHeight, "A simple target");
